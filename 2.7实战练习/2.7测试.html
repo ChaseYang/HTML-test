@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mozilla splash page</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      /* header and body setup */
+
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background: url(pattern.png);
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+
+      /* Header styling */
+
+      header {
+        height: 150px;
+      }
+
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+
+      h1 {
+        font-size: 50px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+      }
+
+      /* main section and video styling */
+
+      main {
+        background: #ccc;
+      }
+
+      article {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+
+      /* further info links */
+
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #c13832;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+
+      .further-info a {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+
+      .further-info img {
+        max-width: 100%;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+      /* Red panda image */
+
+      .red-panda img {
+        display: block;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla网页学习测试</h1>
+	  <img src="图标6-120-120.jpg" alt="兔子网图标">
+    </header>
+	
+    <main>
+      <article>
+        <iframe src="//player.bilibili.com/player.html?aid=37852094&cid=66542141&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 嵌入式图片未正常显示</iframe>
+        <h2>短篇文章</h2>
+        <h4>给你的“一杯”小温暖</h4>
+        <p>那是在一个冬日的夜晚，天气很冷，小杰和卡瑟琳娜在操场上走着，我注意到凯瑟琳娜的小手总是会插在上衣口袋里一段时间，然后脱掉她的手套，瞬间用她的小手握住小杰的双手。那个时候，真的很羡慕。同时也在想，也许，这就是爱情吧！</p>
+        <hr>
+        <h4>你吃汤圆么，我粘着呢</h4>
+        <p>Chase走在街道上，但他每次都喜欢往街对面瞅瞅，即使他手中还握着单词本。顺着他的目光，对面的康斯坦丁-爱德华总是在与Sunny的交谈中陪伴着Sunny吃着一家又一家快餐。</p>
+        <p>“那只是快餐而已。”Chase这样想着。</p>
+        <p>“这是送你的礼物，祝你考试顺利。”Sunny将蓝色的礼盒珍重的放到康斯坦丁-爱德华的手中。而礼盒夹着的纸条依稀可见。</p>
+        <p>“她也送我礼物了。”</p>
+        <p>偌大的香樟树在太阳的照射下映出一片阴凉，换好短裤的Sunny跑到树下，双手递出一瓶饮料到康斯坦丁-爱德华的手中，脸上的汗珠悄然滴下。</p>
+        <p>另一株香樟树旁，Chase提着三瓶水静静地站着，然后转身，将水全给了旁边的同学。</p>
+    	<p>“也许，..."</p>
+        <p>Chase转过头擦了擦被风迷住的眼。</p>
+		<hr>
+
+        <p>（学习网站）Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">风景画</a> </p>
+      </article>
+
+      <div class="further-info">
+        <!-- insert images with srcsets and sizes -->
+        <a href="https://www.mozilla.org/en-US/firefox/new/">
+          <img srcset="400-400px.jpg  400px,
+						1-120-120.jpg  120px"
+				sizes="(max-width:480px) 120px,
+						(min-width:481px) 400px"
+				src="400-400px.jpg"
+				alt="摸摸哒">
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img srcset="2-400-400.jpg 400px,
+						2-120-120.jpg 120px"
+				sizes="(max-width:480px) 120px,
+						(min-width:481px) 400px"
+				src="2-400-400.jpg"
+				alt="皮卡丘">
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img srcset="3-400-400.jpg 400px,
+						3-120-120.jpg 120px"
+				sizes="(max-width:480px) 120px,
+						(min-width:481px) 400px"
+				src="3-400-400.jpg"
+				alt="姐姐我能**你的小馒头么">
+        </a>
+        <a href="https://developer.mozilla.org/en-US/">
+          <img srcset="5-600-600肖像.jpg 400px,
+						5-120-120肖像.jpg 120px"
+				sizes="(max-width:480px) 120px,
+						(min-width:481px) 400px"
+				src="5-600-600肖像.jpg"
+				alt="阳光下的美女肖像">
+        </a>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="red-panda">
+        <picture>
+			<source media="(max-width:600px)" srcset="600-300风景.jpg">
+			<source media="(min-width:601px)" srcset="1200-600风景.jpg">
+			<img src="1200-600风景.jpg" alt="锦绣山河">
+		</picture>
+      </div>
+	  <hr>
+    </main>
+	<footer>
+		<p>此页面为Mozilla学习实例，因学习资料无法下载，相关图片为本人自己查找。页面缺少美感，望谅解</p>
+		<p>由于本人实力有限，可能在技术文章等多个方面存在问题或者不足之处，望诸位大佬斧正。</p>
+		<p>邮箱：1573865554@qq.com</p>
+		<p>&copy;ChaseYang all right reserved.</p>
+	</footer>
+  </body>
+</html>
